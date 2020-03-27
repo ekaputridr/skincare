@@ -1,3 +1,10 @@
+<?php 
+session_start();
+if(! isset($_SESSION['is_login']))
+{
+  header('location:../login/login.php');
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +19,7 @@
 <div class="page-header">
   <a href="act.php"><center><h10>FREE SHIPPING OVER RP.100,000 FOR MEMBERSHIP</h10></center></a>
   <ul>
-    <a href="../login/login.php"><img src="user.png" style="height:20px"></a>
+    <a href=""><img src="user.png" style="height:20px"></a>
     <a href="#"><img src="heart.png" style="height:20px"></a>
     <a href="#"><img src="shop.png" style="height:20px"></a>
   </ul>
@@ -33,7 +40,7 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="../product/cleanser.php">c l e a n s e r</a>
           <a class="dropdown-item" href="../product/mask.php">m a s k</a>
-          <a class="dropdown-item" href="../product/toner.php">t o n e r</a>
+          <a class="dropdown-item" href="#../product/toner.php">t o n e r</a>
           <a class="dropdown-item" href="../product/serum.php">s e r u m</a>
           <a class="dropdown-item" href="../product/moist.php">m o i s t</a>
         </div>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 </head>
@@ -32,13 +32,11 @@
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Product</a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">c l e a n s e r</a>
-          <a class="dropdown-item" href="#">m i c e l l a r</a>
-          <a class="dropdown-item" href="#">m a s k</a>
-          <a class="dropdown-item" href="#">t o n e r</a>
-          <a class="dropdown-item" href="#">s e r u m</a>
-          <a class="dropdown-item" href="#">m o i s t</a>
-          <a class="dropdown-item" href="#">s c r u b</a>
+          <a class="dropdown-item" href="../product/cleanser.php">c l e a n s e r</a>
+          <a class="dropdown-item" href="../product/mask.php">m a s k</a>
+          <a class="dropdown-item" href="../product/toner.php">t o n e r</a>
+          <a class="dropdown-item" href="../product/serum.php">s e r u m</a>
+          <a class="dropdown-item" href="../product/moist.php">m o i s t</a>
         </div>
         </li>
         <li class="nav-item nav-danger">
