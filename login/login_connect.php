@@ -1,24 +1,22 @@
 <?php
+
 session_start();
 
 include '../connect.php';
 
 $email = $_POST['email'];
-$password = $_POST['password'];
+$password = $_POST['password'];   
 
-if($email == "" || $password == ""){
-  header("location: login.php");
-}else{
-  $query = "SELECT * FROM reg WHERE email = '$email' AND password = '$password'";
-  $result = mysqli_query($connect, $query);
-  $num = mysqli_num_rows($result);
+$sql = "SELECT * FROM reg WHERE email = '$email'";
+$result = mysqli_query($connect, $query);
+$num = mysqli_num_rows($result);
 
 if($num == 1){
-  header("location: ../home/masook.php");
-  $_SESSION['reg'] = $email
+  echo "<div>account not registered <a href='../product/home.php'>back</a></div>";
+  header("location: ../product/home.php");
+  $_SESSION['reg'] = $email;
 }else{
-    header("location: login.php");
-}
-}
-
+  header("location: login.php");
+  echo "<div>account not registered <a href='login.php'>back</a></div>";
+};
 ?>

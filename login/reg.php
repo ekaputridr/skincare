@@ -105,23 +105,23 @@ h1{
         <table>
             <tr>
                 <td><label>First Name</label></td>
-                <td><input type="text" name="fname" class="form_login" placeholder="first name"></td>
+                <td><input type="text" name="fname" class="form_login" placeholder="first name" id="fname"></td>
             </tr>
             <tr>
                 <td><label>Last Name</label></td>
-                <td><input type="text" name="lname" class="form_login" placeholder="last name"></td>
+                <td><input type="text" name="lname" class="form_login" placeholder="last name" id="lname"></td>
             </tr>
             <tr>
               <td><label>Birthday</label></td>
-              <td><input type="text" name="birthday" class="form_login" placeholder="dd/mm/yy"></td>
+              <td><input type="text" name="birthday" class="form_login" placeholder="dd/mm/yy" id="birthday"></td>
           </tr>
             <tr>
                 <td><label>Email</label></td>
-                <td><input type="email" name="email" class="form_login" placeholder="e-mail"></td>
+                <td><input type="email" name="email" class="form_login" placeholder="e-mail" id="email"></td>
             </tr>
             <tr>
                 <td><label>Password</label></td>
-                <td><input type="password" name="password" class="form_login" placeholder="password"></td>
+                <td><input type="password" name="password" class="form_login" placeholder="password" id="password"></td>
             </tr>
         </table><br><br><br>
         <input type="submit" class="tombol_login" value="SIGN IN"></td><br><br>

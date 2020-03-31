@@ -15,10 +15,10 @@ $result = mysqli_query($connect,$query);
 $num= mysqli_affected_rows($connect);
 
 if($num > 0){
-    echo "berhasil daftar<br>";
-    echo "<a href='../login/login.php'>Login</a>";
+    echo "registered successfully<br>";
+    echo "<a href='../crud/data.php'>Data</a>";
 }else{
-    echo "gagal terdaftar <br>";
+    echo "failed to register <br>";
     echo "<a href='../home/index.php'>Home<a/>";
 }
 

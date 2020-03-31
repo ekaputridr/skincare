@@ -58,6 +58,7 @@
       <div class="col-lg-3">
         <h1 class="my-4">Macflari Product</h1>
         <div class="list-group">
+        <a href="home.php" class="list-group-item">b e s t s e l l e r</a>
           <a href="cleanser.php" class="list-group-item">c l e a n s e r</a>
           <a href="mask.php" class="list-group-item">m a s k</a>
           <a href="toner.php" class="list-group-item">t o n e r</a>
@@ -115,12 +116,14 @@
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
               <a href="#"><img class="card-img-top" src="i2.png" alt=""></a>
-              <div class="card-body">
-                <h4 class="card-title">
-                  <a href="#">Coconut Scrub</a>
-                </h4>
-                <h5>IDR 413.900</h5>
-                <p class="card-text">Our luxe sugar scrub is an exclusive recipe of lush nutrients that delivers gentle exfoliation and healthy hydration.</p>
+              <div class="product-action">
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Coconut Scrub</a>
+                  </h4>
+                  <h5>IDR 413.900</h5>
+                  <p class="card-text">Our luxe sugar scrub is an exclusive recipe of lush nutrients that delivers gentle exfoliation and healthy hydration.</p>
+                </div>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9733;</small>
